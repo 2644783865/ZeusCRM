@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provera.ZEUSCRM.Core", "Provera.ZEUSCRM.Core\Provera.ZEUSCRM.Core.csproj", "{7A87DF9F-69E6-4BA0-8A68-EB51B9D84040}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F07EEB5-297C-4893-B5FA-AB6BF8605FBE} = {3F07EEB5-297C-4893-B5FA-AB6BF8605FBE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provera.ZEUSCRM.Entity", "Provera.ZEUSCRM.Entity\Provera.ZEUSCRM.Entity.csproj", "{0EC28C13-7BA9-4B2E-A610-C3FFA019434A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provera.ZEUSCRM.Dal", "Provera.ZEUSCRM.Dal\Provera.ZEUSCRM.Dal.csproj", "{3F07EEB5-297C-4893-B5FA-AB6BF8605FBE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A379A6C5-3253-436B-A481-C2DC5B2A36FB} = {A379A6C5-3253-436B-A481-C2DC5B2A36FB}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provera.ZEUSCRM.Bal", "Provera.ZEUSCRM.Bal\Provera.ZEUSCRM.Bal.csproj", "{A379A6C5-3253-436B-A481-C2DC5B2A36FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provera.ZEUSCRM.API", "Provera.ZEUSCRM.API\Provera.ZEUSCRM.API.csproj", "{C55EA9CB-AA86-4413-B7D7-C68245C81D6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Provera.ZEUSCRM.WebUI", "Provera.ZEUSCRM.WebUI\Provera.ZEUSCRM.WebUI.csproj", "{39C09A93-DC0E-42F6-91E6-86297AEE2993}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A87DF9F-69E6-4BA0-8A68-EB51B9D84040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A87DF9F-69E6-4BA0-8A68-EB51B9D84040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A87DF9F-69E6-4BA0-8A68-EB51B9D84040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A87DF9F-69E6-4BA0-8A68-EB51B9D84040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC28C13-7BA9-4B2E-A610-C3FFA019434A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC28C13-7BA9-4B2E-A610-C3FFA019434A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC28C13-7BA9-4B2E-A610-C3FFA019434A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC28C13-7BA9-4B2E-A610-C3FFA019434A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F07EEB5-297C-4893-B5FA-AB6BF8605FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F07EEB5-297C-4893-B5FA-AB6BF8605FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F07EEB5-297C-4893-B5FA-AB6BF8605FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F07EEB5-297C-4893-B5FA-AB6BF8605FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A379A6C5-3253-436B-A481-C2DC5B2A36FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A379A6C5-3253-436B-A481-C2DC5B2A36FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A379A6C5-3253-436B-A481-C2DC5B2A36FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A379A6C5-3253-436B-A481-C2DC5B2A36FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55EA9CB-AA86-4413-B7D7-C68245C81D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55EA9CB-AA86-4413-B7D7-C68245C81D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55EA9CB-AA86-4413-B7D7-C68245C81D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55EA9CB-AA86-4413-B7D7-C68245C81D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C09A93-DC0E-42F6-91E6-86297AEE2993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C09A93-DC0E-42F6-91E6-86297AEE2993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C09A93-DC0E-42F6-91E6-86297AEE2993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C09A93-DC0E-42F6-91E6-86297AEE2993}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {407243D1-6177-426A-AF31-604DA3B80020}
+	EndGlobalSection
+EndGlobal
